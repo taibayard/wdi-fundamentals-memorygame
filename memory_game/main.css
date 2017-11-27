@@ -2,9 +2,10 @@ body {
 	text-align: center;
 	margin:0;
 }
-h1,h2,a, footer{
+h1,h2,nav a, footer{
 	text-transform: uppercase;
 	color:white;
+	font-family: "Raleway", sans-serif;
 }
 header{
 	background-color:#F15B31;
@@ -52,6 +53,9 @@ footer{
 	font-size:14px;
 	letter-spacing: 0.08em;
 	font-weight:500;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
 }
 
 .copyright{
@@ -81,4 +85,25 @@ nav a{
 }
 nav a:hover{
 	border-bottom-color: white;
+}
+#reset-board-btn{
+	color:snow;
+	background-color: grey;
+	width: 6vw;
+	height: 3vw;
+	position: relative;
+	bottom: 10vw;
+	float: right;
+	right: -5vw;
+	padding: 7px;
+	border-radius: 3px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+}
+#reset-board-btn:hover{
+	background-color:#afafaf;
+	color:#151111;
+	cursor:pointer;
 }
